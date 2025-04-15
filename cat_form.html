@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cat Info Form</title>
+</head>
+<body>
+    <h1>Tell Us About Your Cat</h1>
+    <form action="meow.html" method="get">
+        <label for="catName">What is your cat's name?</label><br>
+        <input type="text" id="catName" name="catName" required><br><br>
+
+        <label for="catAge">How old is your cat?</label><br>
+        <input type="number" id="catAge" name="catAge" min="0" required><br><br>
+
+        <label for="catColor">What color is your cat?</label><br>
+        <input type="text" id="catColor" name="catColor"><br><br>
+
+        <label for="catLikes">What does your cat like?</label><br>
+        <textarea id="catLikes" name="catLikes" rows="4" cols="40"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
